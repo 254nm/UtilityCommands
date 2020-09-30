@@ -1,0 +1,14 @@
+name: UtilityCommands
+version: ${project.version}
+main: org.l2x9.back.Back
+api-version: 1.16
+authors: [ 254n_m ]
+description: Add /back and other usful stuff
+website: https://www.l2x9.org/
+commands:
+  back:
+    description: Use /back to go back to where you died
+    usage: /back
+    aliases:
+      - return
+
